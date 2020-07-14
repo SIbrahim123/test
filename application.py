@@ -11,3 +11,6 @@ socketio = SocketIO(app)
 @app.route("/")
 def index():
     return "Project 2: TODO"
+
+def greeting():
+    return "Hello world@me"
